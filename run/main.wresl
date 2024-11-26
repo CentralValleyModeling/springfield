@@ -1,0 +1,24 @@
+
+
+initial {
+	svar BgnWY {value 1922}
+	svar EndWY   {value 2021}
+	svar BgnMo {value 1}
+}
+
+SEQUENCE CYCLE01 {  
+    model   BASE
+    !condition wateryear==BgnWY .and. month==Jan
+    order   1
+}
+	
+MODEL BASE {
+	include 'system\arcs_inflows.wresl'
+	include 'system\arcs_reservoirs.wresl'
+	include 'system\arcs_channels.wresl'
+	
+	include 'system\constraints_reservoirs.wresl'	
+	include 'system\constraints_connectivity.wresl'
+    
+    !include 'system\weight_table.wresl'
+}

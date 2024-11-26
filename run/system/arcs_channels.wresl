@@ -1,0 +1,8 @@
+
+define C_RESERVOIR               {std kind 'CHANNEL' units 'CFS'}                                                       
+define C_CHAN2               {std kind 'CHANNEL' units 'CFS'} 
+define C_CHAN3               {std kind 'CHANNEL' units 'CFS'}
+define C_CHAN4               {std kind 'CHANNEL' units 'CFS'} 
+
+define D_DIV1                {std kind 'CHANNEL' units 'CFS'} 
+define D_DIV2                {std kind 'CHANNEL' units 'CFS'} 

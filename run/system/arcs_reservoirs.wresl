@@ -1,0 +1,17 @@
+
+
+define S_RESERVOIR_level1    {value 10}
+define S_RESERVOIR_level2    {value 400.0}  
+define S_RESERVOIR_level3    {value 500.0}   
+
+define S_RESERVOIR_1         {std kind 'STORAGE-ZONE' units 'TAF'}                                                       
+define S_RESERVOIR_2         {std kind 'STORAGE-ZONE' units 'TAF'}  
+define S_RESERVOIR_3         {std kind 'STORAGE-ZONE' units 'TAF'} 
+
+define S_RESERVOIR           {std kind 'STORAGE' units 'TAF'}                             
+
+define F_RESERVOIR           {std kind 'FLOW-SPILL-NON-RECOV' units 'CFS'}                                                 
+define E_RESERVOIR           {lower unbounded kind 'EVAPORATION' units 'CFS'}                                              
+define A_RESERVOIR           {std kind 'SURFACE-AREA' units 'ACRES'}  
+
+! define ER_RESERVOIR         {timeseries kind 'EVAPORATION-RATE' units 'INCHES'}   

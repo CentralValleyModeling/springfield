@@ -1,0 +1,14 @@
+
+Objective obj_SYS = {
+
+
+! Storage 
+[S_RESERVOIR_1,    200000*taf_cfs],
+[S_RESERVOIR_2,    300*taf_cfs],
+[S_RESERVOIR_3,    -2000*taf_cfs],
+
+! Diversions
+[D_DIV1,   1000],
+[D_DIV2,   2000],
+
+}
