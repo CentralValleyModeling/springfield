@@ -8,13 +8,13 @@ run/cvgroundwater/data/restart
 .vscode/
 
 # include as stub
-DSS/output/*
-!*.stub
+# DSS/output/*
+# !*.stub
 
 # include as stub
-DSS/input/*
-!*.stub
-!CS3_L2020_INIT_v4.dss
+# DSS/input/*
+# !*.stub
+# !CS3_L2020_INIT_v4.dss
 
 # Files #
 #########
