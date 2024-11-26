@@ -1,9 +1,9 @@
 
-goal S_RESERVOIR_ZONE1       {S_RESERVOIR_1 < S_RESERVOIR_level1}                                                
-goal S_RESERVOIR_ZONE2       {S_RESERVOIR_2 < S_RESERVOIR_level2 - S_RESERVOIR_level1}                                                                                                                   
-goal S_RESERVOIR_ZONE3       {S_RESERVOIR_3 < S_RESERVOIR_level3 - S_RESERVOIR_level2}     
+goal S_SPRINGFIELDLAKE_ZONE1       {S_SPRINGFIELDLAKE_1 < S_SPRINGFIELDLAKE_level1}                                                
+goal S_SPRINGFIELDLAKE_ZONE2       {S_SPRINGFIELDLAKE_2 < S_SPRINGFIELDLAKE_level2 - S_SPRINGFIELDLAKE_level1}                                                                                                                   
+goal S_SPRINGFIELDLAKE_ZONE3       {S_SPRINGFIELDLAKE_3 < S_SPRINGFIELDLAKE_level3 - S_SPRINGFIELDLAKE_level2}     
                                                                                     
-goal storage_RESERVOIR       {S_RESERVOIR = S_RESERVOIR_1+S_RESERVOIR_2+S_RESERVOIR_3}  
+goal storage_SPRINGFIELDLAKE       {S_SPRINGFIELDLAKE = S_SPRINGFIELDLAKE_1+S_SPRINGFIELDLAKE_2+S_SPRINGFIELDLAKE_3}  
               
 !goal area_CMCHE     {A_CMCHE=A_CMCHElast+1000*coefev_CMCHE*S_CMCHE-1000*coefev_CMCHE*S_CMCHE(-1)}                                        
 !goal setevap_CMCHE  {E_CMCHE*cfs_af=(ER_CMCHE/24)*A_CMCHElast+(ER_CMCHE/24)*A_CMCHE}                                         

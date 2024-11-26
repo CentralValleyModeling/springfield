@@ -1,1 +1,1 @@
-define I_RESERVOIR          {timeseries kind 'INFLOW' units 'TAF' convert 'CFS'}
+define I_SPRINGFIELDLAKE          {timeseries kind 'INFLOW' units 'TAF' convert 'CFS'}

@@ -1,8 +1,8 @@
 
 
 
-goal continuity_RESERVOIR {I_RESERVOIR - C_RESERVOIR = S_RESERVOIR*taf_cfs - S_RESERVOIR(-1)*taf_cfs}
+goal continuity_SFLAKE {I_SPRINGFIELDLAKE - C_SPRINGFIELDLAKE = S_SPRINGFIELDLAKE*taf_cfs - S_SPRINGFIELDLAKE(-1)*taf_cfs}
 
-goal continuity_1 {C_RESERVOIR - C_CHAN2 = 0}
+goal continuity_1 {C_SPRINGFIELDLAKE - C_CHAN2 = 0}
 goal continuity_2 {C_CHAN2 - C_CHAN3 = 0}
 goal continuity_3 {C_CHAN3 - C_CHAN4 = 0}
