@@ -1,4 +1,3 @@
-
 goal S_SPRINGFIELDLAKE_ZONE1       {S_SPRINGFIELDLAKE_1 < S_SPRINGFIELDLAKE_level1}                                                
 goal S_SPRINGFIELDLAKE_ZONE2       {S_SPRINGFIELDLAKE_2 < S_SPRINGFIELDLAKE_level2 - S_SPRINGFIELDLAKE_level1}                                                                                                                   
 goal S_SPRINGFIELDLAKE_ZONE3       {S_SPRINGFIELDLAKE_3 < S_SPRINGFIELDLAKE_level3 - S_SPRINGFIELDLAKE_level2}     
