@@ -1,8 +1,5 @@
-
-
-
 goal continuity_SFLAKE {I_SPRINGFIELDLAKE - C_SPRINGFIELDLAKE = S_SPRINGFIELDLAKE*taf_cfs - S_SPRINGFIELDLAKE(-1)*taf_cfs}
 
-goal continuity_1 {C_SPRINGFIELDLAKE - C_CHAN2 = 0}
-goal continuity_2 {C_CHAN2 - C_CHAN3 = 0}
-goal continuity_3 {C_CHAN3 - C_CHAN4 = 0}
+goal continuity_1 {I_INFLOW_1 + C_SPRINGFIELDLAKE - C_CHAN1 = 0}
+goal continuity_2 {C_CHAN1 - C_CHAN2 - D_2_DU1 = 0}
+goal continuity_3 {C_CHAN2 - C_CHAN3 - D_3_DU2 = 0}
