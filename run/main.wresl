@@ -1,4 +1,4 @@
-
+! main.wresl
 
 initial {
 	svar BgnWY {value 1922}
