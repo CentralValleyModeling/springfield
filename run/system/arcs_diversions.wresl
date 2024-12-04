@@ -1,4 +1,2 @@
-define D_DIVERSION_1 {std kind 'DIVERSION' units 'CFS'}
-define D_DIVERSION_2 {std kind 'DIVERSION' units 'CFS'}
-
-
+define D_2_DU1 {std kind 'DIVERSION' units 'CFS'} !diversion at node 2 for demand unit 1
+define D_3_DU2 {std kind 'DIVERSION' units 'CFS'} !diversion at node 3 for demand unit 2
