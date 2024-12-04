@@ -1,5 +1,2 @@
-goal continuity_SFLAKE {I_SPRINGFIELDLAKE - C_SPRINGFIELDLAKE = S_SPRINGFIELDLAKE*taf_cfs - S_SPRINGFIELDLAKE(-1)*taf_cfs}
-
-goal continuity_1 {I_INFLOW_1 + C_SPRINGFIELDLAKE - C_CHAN1 = 0}
-goal continuity_2 {C_CHAN1 - C_CHAN2 - D_2_DU1 = 0}
-goal continuity_3 {C_CHAN2 - C_CHAN3 - D_3_DU2 = 0}
+goal constrain_D_2_DU1 {D_2_DU1 = AWO_DU1} !diversion at node 2 equals demand unit 1
+goal constrain_D_3_DU2 {D_3_DU2 = AWO_DU2} !diversion at node 3 equals demand unit 2
