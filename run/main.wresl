@@ -16,9 +16,12 @@ MODEL BASE {
 	include 'system\arcs_inflows.wresl'
 	include 'system\arcs_reservoirs.wresl'
 	include 'system\arcs_channels.wresl'
+	include 'system\arcs_diversions.wresl'
+	include 'system\arcs_demands.wresl'
 	
 	include 'system\constraints_reservoirs.wresl'	
 	include 'system\constraints_connectivity.wresl'
+	include 'system\constraints_diversions.wresl'
     
     !include 'system\weight_table.wresl'
 }
