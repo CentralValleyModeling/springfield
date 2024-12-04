@@ -1,0 +1,3 @@
+define AWO_DEMAND_1 {timeseries kind 'APPLIED-WATER' units 'TAF' convert 'CFS'} !applied water output demand at node 2
+define AWO_DEMAND_2 {timeseries kind 'APPLIED-WATER' units 'TAF' convert 'CFS'} !applied water output demand at node 3
+

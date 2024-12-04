@@ -1,0 +1,4 @@
+define D_DIVERSION_1 {std kind 'DIVERSION' units 'CFS'}
+define D_DIVERSION_2 {std kind 'DIVERSION' units 'CFS'}
+
+
