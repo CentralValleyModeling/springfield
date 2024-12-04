@@ -1,7 +1,4 @@
 define C_SPRINGFIELDLAKE     {upper 1000 kind 'CHANNEL' units 'CFS'}                                                       
-define C_CHAN2               {upper 1000 kind 'CHANNEL' units 'CFS'} 
-define C_CHAN3               {upper 1000 kind 'CHANNEL' units 'CFS'}
-define C_CHAN4               {upper 1000 kind 'CHANNEL' units 'CFS'} 
-
-define D_SPRINGFIELD_WTP     {std kind 'CHANNEL' units 'CFS'} 
-define D_DIV2                {std kind 'CHANNEL' units 'CFS'} 
+define C_CHAN1               {upper 1000 kind 'CHANNEL' units 'CFS'} 
+define C_CHAN2               {upper 1000 kind 'CHANNEL' units 'CFS'}
+define C_CHAN3              {upper 1000 kind 'CHANNEL' units 'CFS'} 
