@@ -1,3 +1,4 @@
 define AWO_DU1 {timeseries kind 'APPLIED-WATER' units 'TAF' convert 'CFS'} !applied water other demand unit 1
 define AWO_DU2 {timeseries kind 'APPLIED-WATER' units 'TAF' convert 'CFS'} !applied water other demand unit 2
 
+
