@@ -4,9 +4,3 @@ define MIF_FROM_LOOKUP_TABLE {select SPRINGFIELD_RES_RELEASE from MIF_SPRINGFIEL
 
 goal constrain_for_MIF {C_SFLAKE_MIF < MIF_FROM_LOOKUP_TABLE}
 
-!goal constrain_for_MIF {lhs C_SFLAKE_MIF
-		!				rhs MIF_FROM_LOOKUP_TABLE
-		!				lhs < rhs penalty 1000
-!}
-
-
