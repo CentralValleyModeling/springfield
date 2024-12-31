@@ -1,7 +1,9 @@
+define S_SFLAKE           {std kind 'STORAGE' units 'TAF'}             
+
 define S_SFLAKE_level1    {value 10}
 define S_SFLAKE_level2    {value 400.0}  
 
 define S_SFLAKE_1         {std kind 'STORAGE-ZONE' units 'TAF'}                                                       
 define S_SFLAKE_2         {std kind 'STORAGE-ZONE' units 'TAF'}  
 
-define S_SFLAKE           {std kind 'STORAGE' units 'TAF'}                             
+                

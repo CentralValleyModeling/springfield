@@ -1,4 +1,4 @@
-define AW_FARM {timeseries kind 'APPLIED-WATER' units 'TAF' convert 'CFS'} !applied water for a farm demand unit 1
+define AW_FARM {timeseries kind 'APPLIED-WATER' units 'TAF' convert 'CFS'}      !applied water for a farm
 define UD_POWERPLANT {timeseries kind 'URBAN-DEMAND' units 'TAF' convert 'CFS'} !urban demand for a power plant
 
 

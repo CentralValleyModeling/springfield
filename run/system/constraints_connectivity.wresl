@@ -1,8 +1,10 @@
-goal continuity_SFLAKE {I_SFLAKE - C_SFLAKE = S_SFLAKE*taf_cfs - S_SFLAKE(-1)*taf_cfs}
+goal continuity_SFLAKE {
+     I_SFLAKE - C_SFLAKE = S_SFLAKE*taf_cfs - S_SFLAKE(-1)*taf_cfs
+}
 
-goal continuity_1 {C_SFLAKE - C_SFR1 = 0}
-goal continuity_2 {C_SFR1 - C_SFR2 - D_SFR2_FARM = 0}
-goal continuity_3 {C_SFR2 - C_SFR3 - D_SFR3_POWERPLANT = 0}
+goal continuity_SFR1 {C_SFLAKE - C_SFR1 = 0}
+goal continuity_SFR2 {C_SFR1 - C_SFR2 - D_SFR2_FARM = 0}
+goal continuity_SFR3 {C_SFR2 - C_SFR3 - D_SFR3_POWERPLANT = 0}
 
 goal continuity_4 {C_SFLAKE = C_SFLAKE_MIF + C_SFLAKE_ADD}
 
