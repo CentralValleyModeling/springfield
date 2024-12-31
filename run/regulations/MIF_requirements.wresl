@@ -2,5 +2,5 @@
 
 define MIF_FROM_LOOKUP_TABLE {select SPRINGFIELD_RES_RELEASE from MIF_SPRINGFIELD where month = month}
 
-goal constrain_for_MIF {C_SFLAKE_MIF < MIF_FROM_LOOKUP_TABLE}
+goal constrain_C_SFLAKE_MIF {C_SFLAKE_MIF < MIF_FROM_LOOKUP_TABLE}
 
