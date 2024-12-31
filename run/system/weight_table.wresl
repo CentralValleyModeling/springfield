@@ -5,7 +5,6 @@ Objective obj_SYS = {
 ! Storage 
 [S_SFLAKE_1,    200000*taf_cfs],
 [S_SFLAKE_2,    300*taf_cfs],
-[S_SFLAKE_3,    -2000*taf_cfs],
 
 ! Diversions
 [D_SFR2_FARM,   1000],

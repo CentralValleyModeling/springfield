@@ -1,12 +1,5 @@
 goal S_SFLAKE_ZONE1       {S_SFLAKE_1 < S_SFLAKE_level1}                                                
 goal S_SFLAKE_ZONE2       {S_SFLAKE_2 < S_SFLAKE_level2 - S_SFLAKE_level1}                                                                                                                   
-goal S_SFLAKE_ZONE3       {S_SFLAKE_3 < S_SFLAKE_level3 - S_SFLAKE_level2}     
                                                                                     
-goal storage_SFLAKE       {S_SFLAKE = S_SFLAKE_1+S_SFLAKE_2+S_SFLAKE_3}  
+goal storage_SFLAKE       {S_SFLAKE = S_SFLAKE_1+S_SFLAKE_2}  
               
-!goal area_CMCHE     {A_CMCHE=A_CMCHElast+1000*coefev_CMCHE*S_CMCHE-1000*coefev_CMCHE*S_CMCHE(-1)}                                        
-!goal setevap_CMCHE  {E_CMCHE*cfs_af=(ER_CMCHE/24)*A_CMCHElast+(ER_CMCHE/24)*A_CMCHE}                                         
-
-!goal maxrelease_CMCHE   {C_CMCHE<relcap_CMCHE} 
-
-!goal setSL_CMCHE    {SL_CMCHE=SL_CMCHE_SV} ! Seepage loss
