@@ -3,15 +3,15 @@ Objective obj_SYS = {
 
 
 ! Storage 
-[S_SPRINGFIELDLAKE_1,    200000*taf_cfs],
-[S_SPRINGFIELDLAKE_2,    300*taf_cfs],
-[S_SPRINGFIELDLAKE_3,    -2000*taf_cfs],
+[S_SFLAKE_1,    200000*taf_cfs],
+[S_SFLAKE_2,    300*taf_cfs],
+[S_SFLAKE_3,    -2000*taf_cfs],
 
 ! Diversions
-[D_2_DU1,   1000],
-[D_3_DU2,   2000],
+[D_SFR2_FARM,   1000],
+[D_SFR3_POWERPLANT,   2000],
 
 ! MIF
-[C_SPRINGFIELDLAKE_MIF,		1500]
+[C_SFLAKE_MIF,		1500]
 
 }

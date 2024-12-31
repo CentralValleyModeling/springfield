@@ -1,4 +1,1 @@
-define I_SPRINGFIELDLAKE          {timeseries kind 'INFLOW' units 'TAF' convert 'CFS'}
-define I_INFLOW_1				  {timeseries kind 'INFLOW' units 'TAF' convert 'CFS'}
-
-
+define I_SFLAKE          {timeseries kind 'INFLOW' units 'TAF' convert 'CFS'}

@@ -1,2 +1,2 @@
-goal constrain_D_2_DU1 {D_2_DU1 = AWO_DU1} !diversion at node 2 equals demand unit 1
-goal constrain_D_3_DU2 {D_3_DU2 = AWO_DU2} !diversion at node 3 equals demand unit 2
+goal constrain_D_SFR2_FARM {D_SFR2_FARM = AW_FARM} !diversion at node 2 equals demand unit 1
+goal constrain_D_SFR3_POWERPLANT {D_SFR3_POWERPLANT = UD_POWERPLANT} !diversion at node 3 equals demand unit 2

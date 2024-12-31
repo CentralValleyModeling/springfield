@@ -1,15 +1,9 @@
-define S_SPRINGFIELDLAKE_level1    {value 10}
-define S_SPRINGFIELDLAKE_level2    {value 400.0}  
-define S_SPRINGFIELDLAKE_level3    {value 500.0}   
+define S_SFLAKE_level1    {value 10}
+define S_SFLAKE_level2    {value 400.0}  
+define S_SFLAKE_level3    {value 500.0}   
 
-define S_SPRINGFIELDLAKE_1         {std kind 'STORAGE-ZONE' units 'TAF'}                                                       
-define S_SPRINGFIELDLAKE_2         {std kind 'STORAGE-ZONE' units 'TAF'}  
-define S_SPRINGFIELDLAKE_3         {std kind 'STORAGE-ZONE' units 'TAF'} 
+define S_SFLAKE_1         {std kind 'STORAGE-ZONE' units 'TAF'}                                                       
+define S_SFLAKE_2         {std kind 'STORAGE-ZONE' units 'TAF'}  
+define S_SFLAKE_3         {std kind 'STORAGE-ZONE' units 'TAF'} 
 
-define S_SPRINGFIELDLAKE           {std kind 'STORAGE' units 'TAF'}                             
-
-define F_SPRINGFIELDLAKE           {std kind 'FLOW-SPILL-NON-RECOV' units 'CFS'}                                                 
-define E_SPRINGFIELDLAKE           {lower unbounded kind 'EVAPORATION' units 'CFS'}                                              
-define A_SPRINGFIELDLAKE           {std kind 'SURFACE-AREA' units 'ACRES'}  
-
-! define ER_SPRINGFIELDLAKE         {timeseries kind 'EVAPORATION-RATE' units 'INCHES'}   
+define S_SFLAKE           {std kind 'STORAGE' units 'TAF'}                             

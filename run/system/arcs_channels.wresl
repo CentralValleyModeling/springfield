@@ -1,7 +1,7 @@
-define C_SPRINGFIELDLAKE     {upper 1000 kind 'CHANNEL' units 'CFS'}   
-define C_SPRINGFIELDLAKE_MIF {upper 1000 kind 'CHANNEL' units 'CFS'}
-define C_SPRINGFIELDLAKE_ADD {upper 1000 kind 'CHANNEL' units 'CFS'}                                                    
-define C_CHAN1               {upper 1000 kind 'CHANNEL' units 'CFS'} 
-define C_CHAN2               {upper 1000 kind 'CHANNEL' units 'CFS'}
-define C_CHAN3               {upper 1000 kind 'CHANNEL' units 'CFS'} 
+define C_SFLAKE     {upper 1000 kind 'CHANNEL' units 'CFS'}   
+define C_SFLAKE_MIF {upper 1000 kind 'CHANNEL' units 'CFS'}
+define C_SFLAKE_ADD {upper 1000 kind 'CHANNEL' units 'CFS'}                                                    
+define C_SFR1               {upper 1000 kind 'CHANNEL' units 'CFS'} 
+define C_SFR2               {upper 1000 kind 'CHANNEL' units 'CFS'}
+define C_SFR3               {upper 1000 kind 'CHANNEL' units 'CFS'} 
 
